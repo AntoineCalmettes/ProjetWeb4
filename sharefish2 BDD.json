@@ -1,0 +1,30 @@
+[
+{"type":"header","version":"4.8.3","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"sharefish2"},
+{"type":"table","name":"fish_list","database":"sharefish2","data":
+[
+{"id":"1","name":"Dorade","description":"Le terme daurade ou dorade désigne plusieurs espèces de poissons de bonne qualité gustative. En France, il fait référence, en premier lieu, à la daurade royale. Dans les zones francophones tropicales, ce terme fait principalement référence à la dorade coryphène, sauf en Guyane, où il désigne Zungaro zungaro."}
+]
+}
+,{"type":"table","name":"maps_post","database":"sharefish2","data":
+[
+{"maps_id":"1","post_id":"1"},
+{"maps_id":"2","post_id":"2"}
+]
+}
+,{"type":"table","name":"post","database":"sharefish2","data":
+[
+{"id":"1","nom":"test","description":"test","id_user":"1","fisherman_sea_stick":"1","fisherman_land_stick":"0","fisherman_hunter":"0","create_post":"2019-03-05 00:00:00","fish":"1","maker_post":"1234567890"}
+]
+}
+,{"type":"table","name":"post_fish_list","database":"sharefish2","data":
+[
+{"post_id":"1","fish_list_id":"1"}
+]
+}
+,{"type":"table","name":"user","database":"sharefish2","data":
+[
+{"id":"1","username":"test","email":"totoine130@gmail.com","password":"test","create_user_date":"2019-06-09 00:00:00","last_login_user":"2019-06-27 00:00:00","fisherman_sea_stick":"1","fisherman_land_stick":"1","fisherman_hunter":"1","profile_photos":"lorem ipsum","birthday":"2018-04-09","location_love_user":"Marseille"}
+]
+}
+]

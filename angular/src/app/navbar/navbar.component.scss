@@ -1,0 +1,59 @@
+#logoNavBar{
+    height: 70px;
+}
+.bg-light{
+    background-color:white!important;
+}
+
+#button-nav-seach {
+    background-color:#248E96!important;
+}
+
+#button-nav-seach:active {
+    background-color:hsl(183, 67%, 23%)!important;
+}
+
+#button-nav-filter:active{
+    color:#248E96!important;
+    border: #248E96 1px solid;
+
+}
+
+.btn-outline-info {
+    border: 1px solid #248E96 !important;
+    background-color: transparent !important;
+    color: #248E96 !important;
+}
+
+.btn{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16), 0 1px 1px 0 rgba(0, 0, 0, 0.12)!important;
+}
+
+
+// .btn-primary{
+//     background-color: #248E96 ;
+//     border: #248E96 solid 1px;
+// }
+// .btn-primary:hover{
+//     background-color: white ;
+//     color:#248E96;
+//     border: #248E96 solid 1px;
+
+// }
+
+// .btn-outline-info{
+//     color: #248E96!important;
+//     border: white solid 1px;
+// }
+
+// .btn-outline-info:hover{
+//     background-color: #248E96 ;
+//     border: #248E96 solid 1px;
+//     color:white!important;
+// }
+
+// .nav-link:hover{
+//     color: #248E96!important;
+//     border: #248E96;
+// }
+
